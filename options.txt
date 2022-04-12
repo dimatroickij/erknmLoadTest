@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IF:\ERKNM\ERKNM
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ef:\erknm\erknm\\logfile.log
+f:\erknm\erknm\\combined_ERKNM.c
+f:\erknm\erknm\\pre_cci.c

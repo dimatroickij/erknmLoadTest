@@ -1,0 +1,47 @@
+addKNM.js(787): Error: 'SyntaxError: Unexpected token ILLEGAL'.
+	Source line: '		'\\xD1\\x81\\xD0\\xBB\\xD1\\x83\\xD0\\xB6\\xD0\\xB1\\xD0\\xB0 \\xD0\\xBF\\xD0\\xBE \\xD0\\xBD\\xD0\\xB0\\xD0\\xB4\\xD0\\xB7\\xD0\\xBE\\xD1\\x80\\xD1\\x83 \\xD0\\xB2 \\xD1\\x81\\xD1\\x84\\xD0\\xB5\\xD1\\x80\\xD0\\xB5 \\xD0\\xB7\\xD0\\xB4\\xD1\\x80\\xD0\\xB0\\xD0\\xB2\\xD0\\xBE\\xD0\\xBE\\xD1\\x85\\xD1\\x80\\xD0\\xB0\\xD0\\xBD\\xD0\\xB5\\xD0\\xBD\\xD0\\xB8\\xD1\\x8F\"'},' + '.
+Virtual User Script started at: 16.03.2022 17:30:53
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.55.0 for Windows 10; build 911 (èþë 24 2017 19:46:00)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 Edg/98.0.1108.56  	[MsgId: MMSG-26988]
+Run-Time Settings file: "F:\ERKNM\ERKNM\\default.cfg"  	[MsgId: MMSG-27141]
+vuser_init.js(13): web.setUser started  	[MsgId: MMSG-26355]
+vuser_init.js(13): web.setUser was successful  	[MsgId: MMSG-26392]
+vuser_init.js(15): web.addAutoHeader("DNT") started  	[MsgId: MMSG-26355]
+vuser_init.js(15): web.addAutoHeader("DNT") was successful  	[MsgId: MMSG-26392]
+vuser_init.js(17): web.addHeader("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+vuser_init.js(17): web.addHeader("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+vuser_init.js(27): web.url("openPrivate") started  	[MsgId: MMSG-26355]
+vuser_init.js(27): Found resource "http://private.proverki.local/private/static/css/2.96e33ef6.chunk.css" in HTML "http://private.proverki.local/"  	[MsgId: MMSG-26659]
+vuser_init.js(27): Found resource "http://private.proverki.local/private/static/css/main.05712d11.chunk.css" in HTML "http://private.proverki.local/"  	[MsgId: MMSG-26659]
+vuser_init.js(27): Found resource "http://private.proverki.local/private/static/js/2.fc2b3439.chunk.js" in HTML "http://private.proverki.local/"  	[MsgId: MMSG-26659]
+vuser_init.js(27): Found resource "http://private.proverki.local/private/static/js/main.8da2c76a.chunk.js" in HTML "http://private.proverki.local/"  	[MsgId: MMSG-26659]
+vuser_init.js(27): Downloading resource "http://private.proverki.local/private/static/js/2.6caa3188.chunk.js" (specified by argument number 9)  	[MsgId: MMSG-26577]
+vuser_init.js(27): Downloading resource "http://private.proverki.local/private/static/js/main.b3e3c4c0.chunk.js" (specified by argument number 11)  	[MsgId: MMSG-26577]
+vuser_init.js(27): Downloading resource "http://private.proverki.local/private/static/media/loader.76756433.gif" (specified by argument number 14)  	[MsgId: MMSG-26577]
+vuser_init.js(27): Downloading resource "http://private.proverki.local/private/static/media/FiraSans-Regular.34239e5e.woff2" (specified by argument number 17)  	[MsgId: MMSG-26577]
+vuser_init.js(27): Downloading resource "http://private.proverki.local/private/static/media/FiraSans-Light.4e01567d.woff2" (specified by argument number 20)  	[MsgId: MMSG-26577]
+vuser_init.js(27): web.url("openPrivate") was successful, 4846739 body bytes, 2502 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+vuser_init.js(46): web.setSocketsOption started  	[MsgId: MMSG-26355]
+vuser_init.js(46): web.setSocketsOption was successful  	[MsgId: MMSG-26392]
+vuser_init.js(48): web.addHeader("Origin") started  	[MsgId: MMSG-26355]
+vuser_init.js(48): web.addHeader("Origin") was successful  	[MsgId: MMSG-26392]
+vuser_init.js(50): web.regSaveParamRegexp started  	[MsgId: MMSG-26355]
+vuser_init.js(50): Registering web.regSaveParamRegexp was successful  	[MsgId: MMSG-26390]
+vuser_init.js(57): web.customRequest("auth_2") started  	[MsgId: MMSG-26355]
+vuser_init.js(57): web.customRequest("auth_2") was successful, 291 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+vuser_init.js(71): web.url("extendedprofile_2") started  	[MsgId: MMSG-26355]
+vuser_init.js(71): web.url("extendedprofile_2") was successful, 349726 body bytes, 288 header bytes  	[MsgId: MMSG-26386]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Warning -27077: The "vuser_init" section contains web function(s) when the "Simulate a new user on each iteration" Run-Time Setting is ON.  This may produce unpredictable results with multiple iterations  	[MsgId: MWAR-27077]
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action addKNM.
+addKNM.js(787): Error: 'SyntaxError: Unexpected token ILLEGAL'.
+	Source line: '		'\\xD1\\x81\\xD0\\xBB\\xD1\\x83\\xD0\\xB6\\xD0\\xB1\\xD0\\xB0 \\xD0\\xBF\\xD0\\xBE \\xD0\\xBD\\xD0\\xB0\\xD0\\xB4\\xD0\\xB7\\xD0\\xBE\\xD1\\x80\\xD1\\x83 \\xD0\\xB2 \\xD1\\x81\\xD1\\x84\\xD0\\xB5\\xD1\\x80\\xD0\\xB5 \\xD0\\xB7\\xD0\\xB4\\xD1\\x80\\xD0\\xB0\\xD0\\xB2\\xD0\\xBE\\xD0\\xBE\\xD1\\x85\\xD1\\x80\\xD0\\xB0\\xD0\\xBD\\xD0\\xB5\\xD0\\xBD\\xD0\\xB8\\xD1\\x8F\"'},' + '.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

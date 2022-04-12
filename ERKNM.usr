@@ -1,0 +1,73 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=ERKNM.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=JsExt-Interpreter
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=12
+MinorVersion=55
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=12.55.0.911
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=JavaScript
+LastCodeGenerationVer=12.55.0.911
+DisableRegenerate=0
+Encoding=ANSI
+Description=
+ScriptLocale=ru-RU
+[Actions]
+vuser_init=vuser_init.js
+addKNM=addKNM.js
+addKNM_ERKNM=addKNM_ERKNM.js
+editKNM_ERKNM=editKNM_ERKNM.js
+vuser_end=vuser_end.js
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+AsyncCallbacks.js=
+globals.js=
+WebSocketBuffer.js=
+[Modified Actions]
+vuser_init=1
+addKNM=1
+addKNM_ERKNM=1
+editKNM_ERKNM=1
+vuser_end=1
+[Recorded Actions]
+vuser_init=1
+addKNM=1
+addKNM_ERKNM=1
+editKNM_ERKNM=1
+vuser_end=1
+[Replayed Actions]
+vuser_init=1
+addKNM=1
+addKNM_ERKNM=1
+editKNM_ERKNM=1
+vuser_end=1
+[Interpreters]
+vuser_init=JsExt-Interpreter
+addKNM=JsExt-Interpreter
+addKNM_ERKNM=JsExt-Interpreter
+editKNM_ERKNM=JsExt-Interpreter
+vuser_end=JsExt-Interpreter
+[TransactionsOrder]
+Order=
+[StateManagement]
+LastReplayStatus=2
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[ExtraFilesToParse]
+AsyncCallbacks.js=
